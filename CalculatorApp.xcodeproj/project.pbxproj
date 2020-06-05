@@ -13,6 +13,7 @@
 		EE27F99B246FFB66008A6426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE27F99A246FFB66008A6426 /* Assets.xcassets */; };
 		EE27F99E246FFB66008A6426 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE27F99D246FFB66008A6426 /* Preview Assets.xcassets */; };
 		EE27F9A1246FFB66008A6426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE27F99F246FFB66008A6426 /* LaunchScreen.storyboard */; };
+		EE27F9AB24705233008A6426 /* ShowText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE27F9AA24705233008A6426 /* ShowText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE27F99D246FFB66008A6426 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE27F9A0246FFB66008A6426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE27F9A2246FFB66008A6426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE27F9AA24705233008A6426 /* ShowText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EE27F99F246FFB66008A6426 /* LaunchScreen.storyboard */,
 				EE27F9A2246FFB66008A6426 /* Info.plist */,
 				EE27F99C246FFB66008A6426 /* Preview Content */,
+				EE27F9AA24705233008A6426 /* ShowText.swift */,
 			);
 			path = CalculatorApp;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				EE27F995246FFB65008A6426 /* AppDelegate.swift in Sources */,
 				EE27F997246FFB65008A6426 /* SceneDelegate.swift in Sources */,
 				EE27F999246FFB65008A6426 /* ContentView.swift in Sources */,
+				EE27F9AB24705233008A6426 /* ShowText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshitgajjar.CalculatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshitgajjar.CalculatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
