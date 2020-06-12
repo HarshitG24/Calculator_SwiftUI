@@ -12,7 +12,7 @@ struct ShowText: View {
     var text: String
     var body: some View {
         Text(text)
-            .foregroundColor(.white)
+            .foregroundColor(Color("digittxt"))
             .fontWeight(.heavy)
             .font(.system(size: 40))
     }

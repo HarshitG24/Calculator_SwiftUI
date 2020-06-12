@@ -13,7 +13,7 @@ struct ContentView: View {
     @State var result = ""
     var body: some View {
         ZStack(alignment: .bottom) {
-            Color(red: 0.10,green: 0.11,blue:0.16)
+            Color("backgroundcolor")
             .edgesIgnoringSafeArea(.all)
             
             VStack(alignment: .trailing)  {
@@ -136,11 +136,11 @@ struct SimpleButton: View {
 
                 }) {
                     RoundedRectangle(cornerRadius: 15, style: .continuous)
-                        .fill(Color(red: 0.20, green: 0.29, blue: 0.37))
+                        .fill(Color("digitcolor"))
                         .frame(width: 70, height: 70)
                         .overlay(
                             Text(element)
-                                .foregroundColor(.white)
+                                .foregroundColor(Color("digittxt"))
                                 .font(.system(size: 28))
                                 .fontWeight(.heavy))
                 }.padding(.horizontal, 10)
